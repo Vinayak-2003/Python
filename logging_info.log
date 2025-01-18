@@ -1,0 +1,12 @@
+2024-06-05 15:26:37,688 - info_logger - INFO - This is an info message
+2024-06-05 15:27:00,072 - info_logger - INFO - a/b: 1.75
+2024-06-05 15:27:07,157 - info_logger - INFO - This is an info message
+2024-06-05 15:27:28,601 - info_logger - INFO - This is an info message
+2024-06-05 15:27:47,285 - info_logger - INFO - a/b: 2.5
+2024-06-05 15:28:08,639 - info_logger - INFO - This is an info message
+2024-06-05 15:53:42,504 - info_logger - INFO - This is an info message
+2024-06-05 15:54:40,514 - info_logger - INFO - This is an info message
+2024-06-05 15:54:50,490 - info_logger - CRITICAL - ZZZZZZZZZEEEEEEEEEEERRRRRRRRRROOOOOOOOOO
+2024-11-13 15:37:02,483 - info_logger - INFO - This is an info message
+2024-11-13 15:37:47,025 - info_logger - INFO - This is an info message
+2024-11-13 15:37:51,134 - info_logger - WARNING - a/b: 0.6666666666666666
