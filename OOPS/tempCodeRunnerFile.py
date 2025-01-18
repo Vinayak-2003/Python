@@ -1,0 +1,1 @@
+pay_amount + (pay_amount * int_rate)

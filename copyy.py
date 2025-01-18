@@ -44,4 +44,8 @@ print(lst1, lst2)
 lst1 = [1,2,[3,4],5]
 lst2 = copy.deepcopy(lst1)
 lst2[2][0] = 100
+<<<<<<< HEAD
 print(lst1, lst2)
+=======
+print(lst1, lst2)
+>>>>>>> origin/main

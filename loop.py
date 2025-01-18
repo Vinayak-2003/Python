@@ -52,6 +52,7 @@ num = [5, 7, 9]
 
 
 # ------------------------WHILE LOOP---------------------------
+<<<<<<< HEAD
 # i = 0
 # while i < 7:
 #     i+=1
@@ -65,3 +66,14 @@ num = [5, 7, 9]
 
 for i in range(10):
     print(i)
+=======
+i = 0
+while i < 7:
+    i+=1
+    # print(i)
+    if i == 3:
+        continue
+    print(i)
+else:
+    print("FINISH")
+>>>>>>> origin/main

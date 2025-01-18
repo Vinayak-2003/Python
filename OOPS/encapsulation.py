@@ -19,6 +19,7 @@ class car:
         print(self.__maxspeed)
         
 
+<<<<<<< HEAD
 # blackCar = car()
 # blackCar.drive()
 # blackCar.setspeed(100)
@@ -89,3 +90,12 @@ print(person_1.information())
 # print(person_1.get_password())
 # person_1.set_password("1234567898765432")
 # print(person_1.get_password())
+=======
+blackCar = car()
+blackCar.drive()
+blackCar.setspeed(100)
+blackCar.__name = "BMW"                 #cannot be changed from outside
+blackCar.drive()
+# blackCar.__updateSoftware()           #cannot be accessed from outside
+# blackCar._car__updateSoftware()
+>>>>>>> origin/main

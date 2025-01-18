@@ -7,6 +7,9 @@
 2024-06-05 15:53:42,504 - info_logger - INFO - This is an info message
 2024-06-05 15:54:40,514 - info_logger - INFO - This is an info message
 2024-06-05 15:54:50,490 - info_logger - CRITICAL - ZZZZZZZZZEEEEEEEEEEERRRRRRRRRROOOOOOOOOO
+<<<<<<< HEAD
 2024-11-13 15:37:02,483 - info_logger - INFO - This is an info message
 2024-11-13 15:37:47,025 - info_logger - INFO - This is an info message
 2024-11-13 15:37:51,134 - info_logger - WARNING - a/b: 0.6666666666666666
+=======
+>>>>>>> origin/main

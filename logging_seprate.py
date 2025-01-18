@@ -40,5 +40,9 @@ try:
     c = a/b
     info_logger.info('a/b: ' + str(c))
 except Exception:
+<<<<<<< HEAD
     error_logger.critical("ZZZZZZZZZEEEEEEEEEEERRRRRRRRRROOOOOOOOOO")
+=======
+    error_logger.error("ZZZZZZZZZEEEEEEEEEEERRRRRRRRRROOOOOOOOOO")
+>>>>>>> origin/main
     

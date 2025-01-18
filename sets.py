@@ -19,6 +19,7 @@ mySet = {'apple', 'banana', 3, 'apple', "cherry", "orange", "kiwi", True, 1, 2, 
 
 
 #--------------------Add sets items-----------------------
+<<<<<<< HEAD
 # mySet.add('orange')
 
 # newSet = {100, 200, 300}
@@ -29,6 +30,17 @@ mySet.add([700, 800])
 # mySet.update(newSet2)
 print(mySet)
 print(type(mySet))
+=======
+mySet.add('orange')
+
+newSet = {100, 200, 300}
+mySet.update(newSet)
+
+newSet2 = [700, 800]
+mySet.update(newSet2)
+# print(mySet)
+# print(type(mySet))
+>>>>>>> origin/main
 
 
 #--------------------Remove set items-----------------------
@@ -83,10 +95,17 @@ set15 = set1 ^ set2
 t = ('hello', 'my', 'name', 'is', 11)
 s = {'hello', 'my', 'name', 'is', 11}
 s.add('Vinayak')
+<<<<<<< HEAD
 # print(type(s))
 frznSet = frozenset(s)
 # print(type(frznSet))
 # print(frznSet)
+=======
+print(type(s))
+frznSet = frozenset(s)
+print(type(frznSet))
+print(frznSet)
+>>>>>>> origin/main
 
 # frznSet.add('Vinayak')
 # print(frznSet)

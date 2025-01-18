@@ -61,6 +61,7 @@ class frog(land_animal, water_animal):
     def water(Self):
         print("Fishes in water")
         
+<<<<<<< HEAD
 # f1 = frog()
 # f1.both()
 # f1.water()
@@ -123,3 +124,9 @@ class smartphone(phone):
     
 phone_1 = smartphone("m31", "samsung", "20,000")
 print(phone_1.name)
+=======
+f1 = frog()
+f1.both()
+f1.water()
+f1.land()
+>>>>>>> origin/main

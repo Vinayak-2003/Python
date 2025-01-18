@@ -1,6 +1,7 @@
 import multiprocessing
 import time
 
+<<<<<<< HEAD
 def hello(n):
     for i in range(n):
         print("HELLLLOOOO")
@@ -24,6 +25,31 @@ if __name__ == "__main__":
     h2.join()
     
     print("DONEEE")
+=======
+# def hello(n):
+#     for i in range(n):
+#         print("HELLLLOOOO")
+        
+# def hi(n):
+#     for i in range(n):
+#         print("Hiiiiii")
+ 
+        
+# hello(10)
+# hi(10)
+
+# if __name__ == "__main__":
+#     h1 = multiprocessing.Process(target=hello, args=[10])
+#     h2 = multiprocessing.Process(target=hi, args=[10])
+
+#     h1.start()
+#     h2.start()
+    
+#     h1.join()
+#     h2.join()
+    
+#     print("DONEEE")
+>>>>>>> origin/main
 
 
 # ---------------------------------------------------------------------- #

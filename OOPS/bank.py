@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 class account: 
     __counter = 1                           # class variable
       
@@ -17,6 +18,13 @@ class account:
     @staticmethod
     def set_counter(new):
         account.__counter = new
+=======
+class account:   
+    def __init__(self, total_balance, name):
+        self.balance = total_balance
+        self.name = name
+        print(f"Account created for user {self.name} in the Bank")
+>>>>>>> origin/main
         
     def add_money(self, add_amount):
         self.balance += add_amount
@@ -59,6 +67,7 @@ b.add_money(1000)
 c.add_money(1000)
 d.add_money(1000)
 
+<<<<<<< HEAD
 c.__counter = "dhwud"
 print(c.sno)
 
@@ -69,6 +78,10 @@ print(c.sno)
 account.get_counter()
 
 # a.saving_transfer_money(700, d)
+=======
+
+a.saving_transfer_money(700, d)
+>>>>>>> origin/main
 # b.saving_transfer_money(100, c)
 # c.current_transfer_money(100, a)
 # d.current_transfer_money(100, b)

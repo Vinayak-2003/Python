@@ -5,7 +5,10 @@
 #         print(greeting, message)
     
 #     print_it()
+<<<<<<< HEAD
 
+=======
+>>>>>>> origin/main
 # print_msg("Python is Great")
 
 
@@ -25,8 +28,16 @@
 
 
 
+<<<<<<< HEAD
 # def display_this(function):
 
+=======
+# def printe():
+#     print("Hey Everyone")
+
+# def display_this(function):
+    
+>>>>>>> origin/main
 #     def inside():
 #         print("Executing", function.__name__, "function")
 #         function()
@@ -34,20 +45,31 @@
         
 #     return inside
 
+<<<<<<< HEAD
 # def printe():
 #     print("Hey Everyone")
 
+=======
+>>>>>>> origin/main
 # decorated_function = display_this(printe)
 # decorated_function()
 
 
 def display_this(function):
+<<<<<<< HEAD
     print("==========================")
+=======
+    
+>>>>>>> origin/main
     def inside():
         print("Executing", function.__name__, "function")
         function()
         print("finished Execution")
+<<<<<<< HEAD
     print("_________________________")
+=======
+        
+>>>>>>> origin/main
     return inside
 
 @display_this

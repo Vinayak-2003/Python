@@ -46,6 +46,7 @@ lix = [x for x in li]
 
 
 a = "hello"
+<<<<<<< HEAD
 # print(a[::-1])
 
 
@@ -63,3 +64,6 @@ s = "hello my name"
 c = s
 # print(new_s)
 # print(s)
+=======
+print(a[::-1])
+>>>>>>> origin/main

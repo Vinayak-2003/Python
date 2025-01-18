@@ -83,7 +83,11 @@ obj_bird.flight()
  
 obj_spr.intro()
 obj_spr.flight()
+<<<<<<< HEAD
 
+=======
+ 
+>>>>>>> origin/main
 obj_ost.intro()
 obj_ost.flight()
 

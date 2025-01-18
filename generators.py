@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # def generators():
 #     yield(7)
 #     yield("Hello")
@@ -36,3 +37,18 @@ for x in gen:
 #         i+=1
 
 # func(5)
+=======
+def generators():
+    yield(7)
+    yield("Hello")
+    yield(True)
+    # return "False"
+    
+for val in generators():
+    print(val)
+    print(type(val))
+    
+x = generators()
+print(next(x))
+print(next(x))
+>>>>>>> origin/main

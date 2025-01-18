@@ -7,7 +7,11 @@ myDict = {
     "numbers": [1, 3, 5, 7],
     "bool": True
 }
+<<<<<<< HEAD
 # print(myDict["fruit1"])
+=======
+print(myDict["fruit1"])
+>>>>>>> origin/main
 myDict2 = dict(fruit1="cherry", fruit2="Apple", fruit3="mango", num=[1,5,7])
 
 # print(myDict)
@@ -75,7 +79,11 @@ del myDict['fruit2']
 
 # prints both key and value pairs
 # for x,y in myDict.items():
+<<<<<<< HEAD
 #     print(x, y)
+=======
+    # print(x, y)
+>>>>>>> origin/main
     
 
 #------------------copy dictionary items----------------------
@@ -139,6 +147,7 @@ myFamily = {
         
         
 #------------------Use of frozen set in dictionary----------------------
+<<<<<<< HEAD
 # print(myDict.keys())
 myDict["food"] = "lunch"
 # print(myDict)
@@ -220,3 +229,12 @@ scores = {"Charlie": 30,  "Dave": 89, "Alice": 45, "Bob": 67}
 sorted_scores = dict(sorted(scores.items(), key=lambda x: x[1], reverse=True)[:2])
 
 print(sorted_scores)
+=======
+print(myDict.keys())
+myDict["food"] = "lunch"
+print(myDict)
+key = frozenset(myDict)
+myDict["food"] = "dinner"
+print(myDict)
+print(key)
+>>>>>>> origin/main
