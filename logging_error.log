@@ -1,0 +1,12 @@
+2024-06-05 15:26:37,688 - error_logger - ERROR - this is an error message
+2024-06-05 15:27:07,157 - error_logger - ERROR - this is an error message
+2024-06-05 15:27:10,787 - error_logger - ERROR - ZZZZZZZZZEEEEEEEEEEERRRRRRRRRROOOOOOOOOO
+2024-06-05 15:27:28,601 - error_logger - ERROR - this is an error message
+2024-06-05 15:28:08,639 - error_logger - ERROR - this is an error message
+2024-06-05 15:28:32,004 - error_logger - ERROR - ZZZZZZZZZEEEEEEEEEEERRRRRRRRRROOOOOOOOOO
+2024-06-05 15:53:42,504 - error_logger - ERROR - this is an error message
+2024-06-05 15:53:46,332 - error_logger - CRITICAL - ZZZZZZZZZEEEEEEEEEEERRRRRRRRRROOOOOOOOOO
+2024-06-05 15:54:40,514 - error_logger - ERROR - this is an error message
+2024-11-13 15:37:02,483 - error_logger - ERROR - this is an error message
+2024-11-13 15:37:09,102 - error_logger - CRITICAL - ZZZZZZZZZEEEEEEEEEEERRRRRRRRRROOOOOOOOOO
+2024-11-13 15:37:47,026 - error_logger - ERROR - this is an error message

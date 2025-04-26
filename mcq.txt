@@ -1,0 +1,41 @@
+a = [1, 2, 3]
+b = a
+a += [4, 5]
+print(a)
+print(b)
+ 
+--------------------------------------------------- PYTHON MCQ ---------------------------------------------------
+
+x = (1, 2, 3)
+y = x
+x += (4, 5)
+print(x)
+print(y)
+
+ 
+Options:
+ 
+A.
+[1, 2, 3, 4, 5]
+[1, 2, 3, 4, 5]
+(1, 2, 3, 4, 5)
+(1, 2, 3)
+
+ 
+B.
+[1, 2, 3, 4, 5]
+[1, 2, 3]
+(1, 2, 3, 4, 5)
+(1, 2, 3)
+
+ 
+C.
+[1, 2, 3, 4, 5]
+[1, 2, 3, 4, 5]
+TypeError: 'tuple' object does not support item assignment
+
+ 
+D.
+[1, 2, 3, 4, 5]
+[1, 2, 3]
+TypeError: 'tuple' object does not support item assignment
