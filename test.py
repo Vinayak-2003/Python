@@ -66,4 +66,7 @@ c = s
 
 
 val = "vinayak"
-print(int(val[-1]))
+# print(int(val[-1]))
+
+d = {}
+print(len(d))
